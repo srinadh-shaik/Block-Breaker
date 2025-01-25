@@ -1,0 +1,124 @@
+/* Updated vibrant styling */
+body{
+    background-attachment: fixed;
+    background-color: #333;
+}
+
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: 2px solid #333;
+    border-radius: 12px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background: linear-gradient(135deg, #121416, #141516);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #8a2be2;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(138, 43, 226, 0.4);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .user:hover {
+    transform: scale(1.1);
+    background-color: #7a1fcc;
+  }
+  
+  .block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.4);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .block:hover {
+    transform: scale(1.1);
+    background-color: #0056b3;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff5733;
+    box-shadow: 0 4px 8px rgba(255, 87, 51, 0.4);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .ball:hover {
+    transform: scale(1.2);
+    background-color: #e74c3c;
+  }
+  
+
+#score{
+    color:white;
+    text-align: center;
+}
+
+.srinadh{
+    color:white;
+    text-decoration: dashed;
+    text-align: end;
+}
+ /* Basic styling for the high score board */
+/* #high-scores-board {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    z-index: 1000;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #high-scores-board h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #high-scores {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  #high-scores p {
+    margin: 5px 0;
+  }
+  
+  #reset-high-scores-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  #reset-high-scores-btn:hover {
+    background-color: #e5533b;
+  }
+   */
