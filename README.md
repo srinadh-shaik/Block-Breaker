@@ -1,3 +1,3 @@
 # Block-Breaker
-break the blocks
-[link](https://block-breaker-ten.vercel.app/)
+[break the blocks]
+(https://block-breaker-ten.vercel.app/)
